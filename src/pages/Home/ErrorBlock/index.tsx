@@ -32,6 +32,8 @@ export const ErrorBlock = () => {
           dispatch(calculateWpm());
           dispatch(calculateErrors(SAMPLE_TEXT));
         },
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         [dispatch, SAMPLE_TEXT]
     );
 

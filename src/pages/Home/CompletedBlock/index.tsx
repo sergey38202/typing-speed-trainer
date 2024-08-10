@@ -1,4 +1,4 @@
-import React, { FC, useCallback } from 'react';
+import { FC, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { resetTest, selectErrorCount, selectWpm } from '../../../store/reducers/TypingSlice';
