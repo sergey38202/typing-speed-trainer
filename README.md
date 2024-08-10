@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+**Typing Speed Trainer**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet effective Typing Speed Trainer app built with React, Redux Toolkit, TypeScript, and styled-components. The app calculates your typing speed in Words Per Minute (WPM) and tracks the number of errors in real-time.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time WPM Calculation: Measure your typing speed dynamically as you type.
+- Error Tracking: Count and display errors made during typing.
+- Restart Functionality: Easily restart the typing exercise at any time.
+- Customizable Text: The app can be configured to use different text samples.
+- Responsive Design: Works well on different screen sizes, ensuring a smooth experience on both desktop and mobile     devices.
 
-## Expanding the ESLint configuration
+### Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React: For building the user interface.
+- Redux Toolkit: For managing the application's state.
+- TypeScript: Provides type safety throughout the project.
+- styled-components: Enables scoped and dynamic styling of components.
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+To run this project locally, follow these steps:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone the repository:
+git clone https://github.com/sergey38202/typing-speed-trainer.git
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. Navigate to the project directory:
+cd typing-speed-trainer
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+
+This will start the app on http://localhost:3000 (or another available port). Open your browser and navigate to this address to view the app.
+
+### Usage:
+1. Start Typing: Begin typing in the input field to see your WPM and errors calculated in real-time.
+2. Restart: Click the "Restart Exercise" button to reset the test and start over.
+3. Finish: Upon completing the text, your results will be displayed, showing your final WPM and the number of errors.
+
+### Contact
+If you have any questions or feedback, please feel free to reach out:
+
+Email: khachikyansergey14@gmail.com
+GitHub: https://github.com/sergey38202
