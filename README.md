@@ -2,6 +2,8 @@
 
 A simple yet effective Typing Speed Trainer app built with React, Redux Toolkit, TypeScript, and styled-components. The app calculates your typing speed in Words Per Minute (WPM) and tracks the number of errors in real-time.
 
+Deploy: https://typing-speed-trainer-dg4w-mexx493bx-sergey38202s-projects.vercel.app/
+
 ### Features
 
 - Real-time WPM Calculation: Measure your typing speed dynamically as you type.
