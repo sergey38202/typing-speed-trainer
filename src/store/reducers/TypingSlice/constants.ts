@@ -1,0 +1,1 @@
+export const TYPING_SLICE_NAME = 'typingSlice';
